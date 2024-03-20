@@ -1,0 +1,31 @@
+{
+  "name": "iureaspernatur",
+  "version": "1.0.0",
+  "description": "ethereum vanity address generator",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NewellLeannon/iureaspernatur.git"
+  },
+  "keywords": [
+    "vanity",
+    "ethereum",
+    "address"
+  ],
+  "author": "JaclynWaters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NewellLeannon/iureaspernatur.git/issues"
+  },
+  "bin": {
+    "vanityeth": "index.js"
+  },
+  "homepage": "https://github.com/NewellLeannon/iureaspernatur.git",
+  "dependencies": {
+    "ethereumjs-util": "^7.0.9",
+    "hh-mm-ss": "^1.2.0",
+    "ora": "^6.0.1",
+    "yargs": "^17.2.1"
+  }
+}
